@@ -1,6 +1,6 @@
 import PingService from "../services/ping.service";
 import PingEntity from "../entities/PingEntity";
-import { Get, Route } from "tsoa/dist";
+import { Get, Route } from "tsoa";
 
 // This wouldn't work
 interface ResponseObject<T> {
