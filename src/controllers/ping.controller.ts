@@ -1,5 +1,3 @@
-import type { NextFunction, Request, Response } from "express";
-
 import PingService from "../services/ping.service";
 import { Get, Route } from "tsoa/dist";
 
