@@ -19,6 +19,7 @@
 				"additionalProperties": false
 			},
 			"ResponseObject": {
+				"description": "This will work normally:",
 				"properties": {
 					"status": {
 						"type": "number",
