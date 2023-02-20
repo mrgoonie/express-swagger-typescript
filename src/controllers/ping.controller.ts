@@ -1,4 +1,5 @@
 import PingService from "../services/ping.service";
+import PingEntity from "../entities/PingEntity";
 import { Get, Route } from "tsoa/dist";
 
 // This wouldn't work
@@ -13,7 +14,7 @@ export default class PingController {
 	async getMessage() {
 		const svc = new PingService();
 		const data = await svc.getMessage();
-		let result: ResponseObject<PingService> = { status: 1, data };
+		let result: ResponseObject<PingEntity> = { status: 1, data };
 		return result;
 	}
 }
